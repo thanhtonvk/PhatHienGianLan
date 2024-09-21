@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
     Runnable runnable;
     private boolean canPlaySound = true;
     Button btnDoiCamera;
-    private int facing = 1;
+    private int facing = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
